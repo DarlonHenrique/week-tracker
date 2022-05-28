@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import { Main } from '../components/Main'
 import Head from 'next/head'
 import { Header } from '../components/Header'
 import { GlobalStyle } from '../styles/global'
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/hourglass.svg' />
       </Head>
       <Header />
+      <Main />
     </>
   )
 }
