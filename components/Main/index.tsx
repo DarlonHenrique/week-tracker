@@ -1,13 +1,13 @@
 import React from 'react'
-import { Chart } from '../Chart'
-import { Nav } from '../Nav'
+import { ActiveTrackers } from '../ActiveTrackers'
 import { MainContainer } from './styles'
+import { MainContent } from '../MainContent'
 
 export function Main() {
   return (
     <MainContainer>
-      <Nav />
-      <Chart />
+      <ActiveTrackers />
+      <MainContent />
     </MainContainer>
   )
 }
