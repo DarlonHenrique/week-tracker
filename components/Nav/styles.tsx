@@ -5,7 +5,6 @@ export const NavContainer = styled.nav`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--blue);
 
   ul {
     list-style: none;
@@ -13,7 +12,8 @@ export const NavContainer = styled.nav`
     height: 100%;
 
     li {
-      background-color: #fff;
+      background-color: var(--blue-light);
+      color: #fff;
       border-radius: 0.25rem;
       padding: 1rem;
       margin: 1.91rem 0.5rem;
